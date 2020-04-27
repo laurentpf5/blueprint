@@ -1,4 +1,6 @@
 # blueprint
+Migrations to Azure Cloud are made easier with the Cloud Adoption Framework, with the support of Terraform. 
+More information can be found https://azure.microsoft.com/en-us/cloud-adoption-framework/. Terraform is used as the orchestration tool to support this process (https://www.arnaudlheureux.io/tag/landing-zones/).
 This module is for F5 BIG-IP integrate to Microsoft Cloud Adoption Framework(Landingzones) for Azure.
 It means that most of variables and modules are depended on Landingzones modules so it might be not working if landingzones modules are updated.
 You may have issues when you try to test if landingzones module has updated or modified.
